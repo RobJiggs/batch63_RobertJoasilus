@@ -9,5 +9,6 @@ package app;
  * @date: Sep 20, 2022
  */
 public class Class {
+	System.out.println("hi");
 
 }
