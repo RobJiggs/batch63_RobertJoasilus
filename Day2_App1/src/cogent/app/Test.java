@@ -1,14 +1,13 @@
 /**
  * 
  */
-package app;
+package cogent.app;
 
 /**
  * @author Robert Joasilus
  *
  * @date: Sep 20, 2022
  */
-public class Class {
-	System.out.println("hi");
+public class Test {
 
 }
