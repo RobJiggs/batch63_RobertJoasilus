@@ -1,7 +1,7 @@
 /**
  * 
  */
-package java.basics;
+package basics;
 
 /**
  * @author Robert Joasilus

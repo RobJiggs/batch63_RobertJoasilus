@@ -1,25 +1,30 @@
 /**
  * 
  */
-package java.basics;
+package basics;
 
 /**
  * @author Robert Joasilus
  *
  * @date: Sep 21, 2022
  */
-public class Swapwithout {
+public class Swap {
 	static void myMethod(int a, int b) {
-		a=a+b;
-		b=a-b;
-		a=a-b;
-		System.out.println(a+" "+b);
+		int c=a;
+		a=b;
+		b=c;
+		System.out.println(a+' '+b);
 		
 		
 	}
+
+
+	
+	
 	public static void main(String[] args) {
-		int a=5;
-		int b=6;
+		int a =10;
+		int b=5;
 		myMethod(a,b);
+		
 	}
 }
