@@ -14,6 +14,7 @@ public class DS212 {
 		int a=6;
 		int b=8;
 		do {int c=a+b;
+			System.out.println(c);
 			
 			} while (userselection==true);
 
