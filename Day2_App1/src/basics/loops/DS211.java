@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ds;
+package basics.loops;
 
 /**
  * @author Robert Joasilus

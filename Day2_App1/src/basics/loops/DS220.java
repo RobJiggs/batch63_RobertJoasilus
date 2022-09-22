@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ds;
+package basics.loops;
 
 import java.util.Random;
 
