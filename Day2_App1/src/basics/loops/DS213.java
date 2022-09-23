@@ -22,7 +22,7 @@ public class DS213 {
 			Random rand = new Random(); 
 			
 			
-	        //generate random values from 0-24
+	        
 	      int int_random = rand.nextInt(max - min) + min;
 	      if(int_random>0) {
 	    	  pos_count++;
