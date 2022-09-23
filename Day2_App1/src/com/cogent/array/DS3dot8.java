@@ -13,10 +13,10 @@ import java.util.Random;
  */
 public class DS3dot8 {
 	public static void main(String[] args) {
-		int[] arr = new int[2];
-		int[] arr2 = new int[2];
-		int min = -2;
-		int max = 0;
+		int[] arr = new int[11];
+		int[] arr2 = new int[11];
+		int min = -15;
+		int max = 15;
 		int matches=0;
 		boolean sameness = false;
 		Random rand = new Random();
