@@ -8,14 +8,16 @@ import java.util.Random;
 /**
  * @author Robert Joasilus
  *
- * @date: Sep 24, 2022
+ * @date: Sep 25, 2022
  */
-public class DS4dot10 {
+public class DS4dot12 {
+	
 	public static void main(String[] args) {
 		int max = 15;
 		int min = -15;
 		int[][] mat = new int[4][4];
-		int sum = 0;
+		int temp=0;
+		
 
 		Random rand = new Random();
 
@@ -28,20 +30,36 @@ public class DS4dot10 {
 			}
 			System.out.println(" ");
 		}
-		for (int i = 0; i < mat.length; i++) {
-			for (int j = 0; j < mat.length; j++) {
-				if (i == j) {
-					sum += mat[i][j];
-
-				} else if ((i + j) == mat.length-1) {
-					sum += mat[i][j];
-
+		
+		for(int i=0; i<mat.length;i++) {
+			for(int j=0; j<mat.length;j++) {
+				if(i==0) {
+					temp=mat[i][j];
+					mat[i][j]=mat[mat.length-1][j];
+					mat[mat.length-1][j]=temp;			    	
+					
 				}
-
+				
+				
+				
 			}
+			
+			
+			
 		}
-		System.out.println("the sum of both diagonals is " + sum);
-
+		
+		System.out.println("------------------");
+		for(int i=0;i<mat.length;i++) {
+			for(int j=0;j<mat.length;j++) {
+				System.out.print(" "+mat[i][j]);
+				
+				
+			}
+			System.out.println(" ");
+			
+		}
+		
+		
 	}
 
 }
